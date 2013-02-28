@@ -8,4 +8,4 @@ In the file 'testImage.php' you can find a complete example of use.
 * png, jpeg, gif, bmp
 
 ## Require ttf fonts
-* A lot o free fonts are here: http://www.free-fonts-ttf.org/true-type-fonts/
+* A lot of free fonts are here: http://www.free-fonts-ttf.org/true-type-fonts/
