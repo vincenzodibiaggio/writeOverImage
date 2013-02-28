@@ -116,10 +116,7 @@ class writeOverImage
 		
 		try {
 			// write text over the image
-			if (!Imagettftext($this->image, $this->fontSize, $this->stringAngle, $this->startX, $this->startY, $stringColor, $this->fontName, $this->stringToWrite))
-			{
-				die('no');
-			}
+			Imagettftext($this->image, $this->fontSize, $this->stringAngle, $this->startX, $this->startY, $stringColor, $this->fontName, $this->stringToWrite);
 			
 			// manage output
 			if ($this->outputDirectly)
